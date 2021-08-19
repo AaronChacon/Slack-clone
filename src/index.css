@@ -20,3 +20,39 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* .swal2-popup{
+  background: #49274b;
+} */
+
+.swal2-title{
+  color: #49274b !important;
+}
+
+.swal2-styled.swal2-confirm {
+  background-color: #49274b !important;
+  border: 1px solid #49274b !important;
+  color: #fff !important;
+}
+
+.swal2-cancel.swal2-styled{
+  border: 1px solid #49274b !important;
+  color: #49274b !important;
+  font-weight: 600 !important;
+  background-color: transparent !important;
+}
+
+
+.swal2-file, .swal2-input, .swal2-textarea{
+  border: 1px solid #49274b !important;
+  color: black !important;
+}
+
+.swal2-file:focus, .swal2-input:focus, .swal2-textarea:focus {
+  border: 1px solid #49274b !important;
+  box-shadow: inset 0 1px 1px rgb(0 0 0 / 6%), 0 0 0 3px rgb(73 39 75 / 50%) !important;
+}
+
+.swal2-timer-progress-bar{
+  background: rgba(73,39,75,.8) !important;
+}
